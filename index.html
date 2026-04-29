@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Omi Fitness – Karachi's elite strength hub. Premium facilities, expert training, no excuses.">
+  <meta name="description"
+    content="Omi Fitness – Karachi's elite strength hub. Premium facilities, expert training, no excuses.">
   <title>Omi Fitness | Karachi's Elite Strength Hub</title>
   <link rel="icon" type="image/png" href="REFERENCE LOGO.png">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: { 'omi-red': '#D42027', 'omi-dark': '#0a0a0a', 'omi-card': '#111111' },
-          fontFamily: { 'oswald': ['Oswald','sans-serif'], 'inter': ['Inter','sans-serif'] }
+          fontFamily: { 'oswald': ['Oswald', 'sans-serif'], 'inter': ['Inter', 'sans-serif'] }
         }
       }
     }
   </script>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="bg-black text-white font-inter">
 
   <!-- NAVBAR -->
-  <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300" style="background:rgba(0,0,0,0.7);backdrop-filter:blur(12px)">
+  <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300"
+    style="background:rgba(0,0,0,0.7);backdrop-filter:blur(12px)">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
       <a href="#"><img src="REFERENCE LOGO.png" alt="Omi Fitness" class="h-10 md:h-14"></a>
       <ul class="hidden md:flex gap-8 font-oswald text-sm tracking-widest uppercase">
@@ -51,14 +57,22 @@
     <div class="absolute inset-0 bg-cover bg-center" style="background-image:url('hero-bg.png');opacity:0.2"></div>
     <div class="absolute inset-0 bg-gradient-to-b from-black via-black/60 to-black"></div>
     <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
-      <div class="inline-block mb-6 px-4 py-1.5 border border-omi-red/40 rounded-full text-omi-red text-xs font-oswald tracking-[0.3em] uppercase animate-pulse">🔥 Now Open</div>
+      <div
+        class="inline-block mb-6 px-4 py-1.5 border border-omi-red/40 rounded-full text-omi-red text-xs font-oswald tracking-[0.3em] uppercase animate-pulse">
+        🔥 Now Open</div>
       <h1 class="font-oswald text-5xl sm:text-6xl md:text-8xl font-bold leading-none tracking-tight mb-6">
         KARACHI'S ELITE<br><span class="text-omi-red">STRENGTH HUB.</span>
       </h1>
-      <p class="text-white/60 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">Premium Facilities. Expert Training. No Excuses.</p>
-      <a href="#plans" class="inline-block bg-omi-red hover:bg-red-700 text-white font-oswald text-lg tracking-widest uppercase px-10 py-4 rounded transition-all hover:scale-105 active:scale-95">Explore Memberships</a>
+      <p class="text-white/60 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">Premium Facilities.
+        Expert Training. No Excuses.</p>
+      <a href="#plans"
+        class="inline-block bg-omi-red hover:bg-red-700 text-white font-oswald text-lg tracking-widest uppercase px-10 py-4 rounded transition-all hover:scale-105 active:scale-95">Explore
+        Memberships</a>
     </div>
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"><svg class="w-6 h-6 text-white/30" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg></div>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"><svg class="w-6 h-6 text-white/30"
+        fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg></div>
   </section>
 
   <!-- TIMINGS -->
@@ -67,7 +81,8 @@
       <div class="text-center mb-14">
         <span class="text-omi-red font-oswald text-sm tracking-[0.3em] uppercase">Schedule</span>
         <h2 class="font-oswald text-4xl md:text-5xl font-bold mt-2">GYM TIMINGS</h2>
-        <p class="text-white/50 mt-3 max-w-lg mx-auto">Dedicated hours for gents and ladies ensuring a focused training environment.</p>
+        <p class="text-white/50 mt-3 max-w-lg mx-auto">Dedicated hours for gents and ladies ensuring a focused training
+          environment.</p>
       </div>
       <div class="grid md:grid-cols-2 gap-6 md:gap-8">
         <!-- Gents -->
@@ -75,13 +90,26 @@
           <div class="flex items-center gap-3 mb-6">
             <div class="w-12 h-12 bg-omi-red/10 rounded-xl flex items-center justify-center text-2xl">🏋️</div>
             <h3 class="font-oswald text-2xl font-bold text-omi-red uppercase tracking-wider">Gents</h3>
-            <span id="gentsLive" class="hidden ml-auto px-3 py-1 bg-green-500/20 text-green-400 text-xs font-bold rounded-full items-center gap-1.5"><span class="w-2 h-2 bg-green-400 rounded-full animate-pulse inline-block"></span> LIVE</span>
+            <span id="gentsLive"
+              class="hidden ml-auto px-3 py-1 bg-green-500/20 text-green-400 text-xs font-bold rounded-full items-center gap-1.5"><span
+                class="w-2 h-2 bg-green-400 rounded-full animate-pulse inline-block"></span> LIVE</span>
           </div>
           <table class="w-full text-left">
-            <thead><tr class="border-b border-white/10 text-white/40 text-xs uppercase tracking-wider"><th class="pb-3">Session</th><th class="pb-3 text-right">Time</th></tr></thead>
+            <thead>
+              <tr class="border-b border-white/10 text-white/40 text-xs uppercase tracking-wider">
+                <th class="pb-3">Session</th>
+                <th class="pb-3 text-right">Time</th>
+              </tr>
+            </thead>
             <tbody class="text-white/80">
-              <tr class="border-b border-white/5"><td class="py-4">Morning</td><td class="py-4 text-right font-oswald">6:00 AM – 10:00 AM</td></tr>
-              <tr><td class="py-4">Evening</td><td class="py-4 text-right font-oswald">4:00 PM – 11:00 PM</td></tr>
+              <tr class="border-b border-white/5">
+                <td class="py-4">Morning</td>
+                <td class="py-4 text-right font-oswald">6:00 AM – 10:00 AM</td>
+              </tr>
+              <tr>
+                <td class="py-4">Evening</td>
+                <td class="py-4 text-right font-oswald">4:00 PM – 11:00 PM</td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -90,12 +118,22 @@
           <div class="flex items-center gap-3 mb-6">
             <div class="w-12 h-12 bg-omi-red/10 rounded-xl flex items-center justify-center text-2xl">💪</div>
             <h3 class="font-oswald text-2xl font-bold text-omi-red uppercase tracking-wider">Ladies</h3>
-            <span id="ladiesLive" class="hidden ml-auto px-3 py-1 bg-green-500/20 text-green-400 text-xs font-bold rounded-full items-center gap-1.5"><span class="w-2 h-2 bg-green-400 rounded-full animate-pulse inline-block"></span> LIVE</span>
+            <span id="ladiesLive"
+              class="hidden ml-auto px-3 py-1 bg-green-500/20 text-green-400 text-xs font-bold rounded-full items-center gap-1.5"><span
+                class="w-2 h-2 bg-green-400 rounded-full animate-pulse inline-block"></span> LIVE</span>
           </div>
           <table class="w-full text-left">
-            <thead><tr class="border-b border-white/10 text-white/40 text-xs uppercase tracking-wider"><th class="pb-3">Session</th><th class="pb-3 text-right">Time</th></tr></thead>
+            <thead>
+              <tr class="border-b border-white/10 text-white/40 text-xs uppercase tracking-wider">
+                <th class="pb-3">Session</th>
+                <th class="pb-3 text-right">Time</th>
+              </tr>
+            </thead>
             <tbody class="text-white/80">
-              <tr><td class="py-4">Exclusive Hours</td><td class="py-4 text-right font-oswald">10:00 AM – 4:00 PM</td></tr>
+              <tr>
+                <td class="py-4">Exclusive Hours</td>
+                <td class="py-4 text-right font-oswald">10:00 AM – 4:00 PM</td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -113,44 +151,105 @@
       </div>
       <div class="grid md:grid-cols-3 gap-6 md:gap-8">
         <!-- Monthly -->
-        <div class="bg-omi-card border border-white/5 rounded-2xl p-8 hover:border-white/20 transition-all flex flex-col">
+        <div
+          class="bg-omi-card border border-white/5 rounded-2xl p-8 hover:border-white/20 transition-all flex flex-col">
           <h3 class="font-oswald text-xl tracking-wider uppercase text-white/60">Monthly</h3>
-          <div class="mt-4 mb-2"><span class="text-white/40 text-sm">Rs.</span><span class="font-oswald text-5xl font-bold">3,000</span></div>
+          <div class="mt-4 mb-2"><span class="text-white/40 text-sm">Rs.</span><span
+              class="font-oswald text-5xl font-bold">3,000</span></div>
           <p class="text-white/40 text-sm mb-6">per month</p>
           <ul class="space-y-3 text-white/70 text-sm mb-8 flex-grow">
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Full gym access</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>All equipment</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Locker facility</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Trainer guidance</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Full gym access</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>All equipment</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Locker facility</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Trainer guidance</li>
           </ul>
-          <a href="https://wa.me/923001234567?text=Interested%20in%20Monthly%20plan" target="_blank" class="block text-center bg-omi-red hover:bg-red-700 text-white font-oswald tracking-widest uppercase py-4 rounded-xl transition-all hover:scale-[1.02] active:scale-95 min-h-[52px]">Get Started</a>
+          <a href="https://wa.me/923121298861?text=Interested%20in%20Monthly%20plan" target="_blank"
+            class="block text-center bg-omi-red hover:bg-red-700 text-white font-oswald tracking-widest uppercase py-4 rounded-xl transition-all hover:scale-[1.02] active:scale-95 min-h-[52px]">Get
+            Started</a>
         </div>
         <!-- Quarterly (Best Value) -->
         <div class="relative bg-omi-card rounded-2xl p-8 flex flex-col plan-glow">
-          <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-omi-red text-white text-xs font-oswald tracking-widest uppercase px-5 py-1.5 rounded-full">Best Value</div>
+          <div
+            class="absolute -top-4 left-1/2 -translate-x-1/2 bg-omi-red text-white text-xs font-oswald tracking-widest uppercase px-5 py-1.5 rounded-full">
+            Best Value</div>
           <h3 class="font-oswald text-xl tracking-wider uppercase text-white/60 mt-2">Quarterly</h3>
-          <div class="mt-4 mb-2"><span class="text-white/40 text-sm">Rs.</span><span class="font-oswald text-5xl font-bold">8,000</span></div>
+          <div class="mt-4 mb-2"><span class="text-white/40 text-sm">Rs.</span><span
+              class="font-oswald text-5xl font-bold">8,000</span></div>
           <p class="text-white/40 text-sm mb-6">billed quarterly</p>
           <ul class="space-y-3 text-white/70 text-sm mb-8 flex-grow">
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Everything in Monthly</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Save Rs. 1,000</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Priority support</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Free diet consult</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Everything in Monthly</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Save Rs. 1,000</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Priority support</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Free diet consult</li>
           </ul>
-          <a href="https://wa.me/923001234567?text=Interested%20in%20Quarterly%20plan" target="_blank" class="block text-center bg-omi-red hover:bg-red-700 text-white font-oswald tracking-widest uppercase py-4 rounded-xl transition-all hover:scale-[1.02] active:scale-95 min-h-[52px]">Get Started</a>
+          <a href="https://wa.me/923001234567?text=Interested%20in%20Quarterly%20plan" target="_blank"
+            class="block text-center bg-omi-red hover:bg-red-700 text-white font-oswald tracking-widest uppercase py-4 rounded-xl transition-all hover:scale-[1.02] active:scale-95 min-h-[52px]">Get
+            Started</a>
         </div>
         <!-- Annual -->
-        <div class="bg-omi-card border border-white/5 rounded-2xl p-8 hover:border-white/20 transition-all flex flex-col">
+        <div
+          class="bg-omi-card border border-white/5 rounded-2xl p-8 hover:border-white/20 transition-all flex flex-col">
           <h3 class="font-oswald text-xl tracking-wider uppercase text-white/60">Annual</h3>
-          <div class="mt-4 mb-2"><span class="text-white/40 text-sm">Rs.</span><span class="font-oswald text-5xl font-bold">25,000</span></div>
+          <div class="mt-4 mb-2"><span class="text-white/40 text-sm">Rs.</span><span
+              class="font-oswald text-5xl font-bold">25,000</span></div>
           <p class="text-white/40 text-sm mb-6">billed annually</p>
           <ul class="space-y-3 text-white/70 text-sm mb-8 flex-grow">
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Everything in Quarterly</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Save Rs. 11,000</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>Personal training</li>
-            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/></svg>VIP member perks</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Everything in Quarterly</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Save Rs. 11,000</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>Personal training</li>
+            <li class="flex items-center gap-2"><svg class="w-4 h-4 text-omi-red flex-shrink-0" fill="currentColor"
+                viewBox="0 0 20 20">
+                <path
+                  d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" />
+              </svg>VIP member perks</li>
           </ul>
-          <a href="https://wa.me/923001234567?text=Interested%20in%20Annual%20plan" target="_blank" class="block text-center bg-omi-red hover:bg-red-700 text-white font-oswald tracking-widest uppercase py-4 rounded-xl transition-all hover:scale-[1.02] active:scale-95 min-h-[52px]">Get Started</a>
+          <a href="https://wa.me/923001234567?text=Interested%20in%20Annual%20plan" target="_blank"
+            class="block text-center bg-omi-red hover:bg-red-700 text-white font-oswald tracking-widest uppercase py-4 rounded-xl transition-all hover:scale-[1.02] active:scale-95 min-h-[52px]">Get
+            Started</a>
         </div>
       </div>
     </div>
@@ -164,22 +263,26 @@
         <h2 class="font-oswald text-4xl md:text-5xl font-bold mt-2">WHY CHOOSE OMI?</h2>
       </div>
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
+        <div
+          class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
           <div class="text-4xl mb-4">🏋️</div>
           <h4 class="font-oswald text-lg font-bold mb-2 group-hover:text-omi-red transition">Premium Equipment</h4>
           <p class="text-white/50 text-sm">Smith machines, cable crossovers, full dumbbell racks up to 50kg.</p>
         </div>
-        <div class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
+        <div
+          class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
           <div class="text-4xl mb-4">🥊</div>
           <h4 class="font-oswald text-lg font-bold mb-2 group-hover:text-omi-red transition">Functional Zone</h4>
           <p class="text-white/50 text-sm">Battle ropes, kettlebells, treadmills, and a full cardio area.</p>
         </div>
-        <div class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
+        <div
+          class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
           <div class="text-4xl mb-4">🧊</div>
           <h4 class="font-oswald text-lg font-bold mb-2 group-hover:text-omi-red transition">Fully AC & Clean</h4>
           <p class="text-white/50 text-sm">Air-conditioned, sanitized equipment, and filtered water.</p>
         </div>
-        <div class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
+        <div
+          class="bg-omi-card border border-white/5 rounded-2xl p-6 text-center hover:border-omi-red/30 transition-all group">
           <div class="text-4xl mb-4">🤝</div>
           <h4 class="font-oswald text-lg font-bold mb-2 group-hover:text-omi-red transition">Community</h4>
           <p class="text-white/50 text-sm">More than a gym — a tribe that keeps you accountable.</p>
@@ -201,34 +304,41 @@
   </footer>
 
   <!-- WHATSAPP FAB -->
-  <a href="https://wa.me/923001234567?text=Salam%20Omi%20Fitness!%20I'm%20interested%20in%20a%20membership." target="_blank" rel="noopener" class="whatsapp-fab" id="whatsappFab" aria-label="WhatsApp">
-    <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.387 0-4.592-.826-6.326-2.207l-.441-.348-3.225 1.081 1.081-3.225-.348-.441A9.957 9.957 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  <a href="https://wa.me/923001234567?text=Salam%20Omi%20Fitness!%20I'm%20interested%20in%20a%20membership."
+    target="_blank" rel="noopener" class="whatsapp-fab" id="whatsappFab" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" class="w-7 h-7 fill-white">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+      <path
+        d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.387 0-4.592-.826-6.326-2.207l-.441-.348-3.225 1.081 1.081-3.225-.348-.441A9.957 9.957 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+    </svg>
   </a>
 
   <script>
     // Mobile nav
-    document.getElementById('navToggle').addEventListener('click',function(){
+    document.getElementById('navToggle').addEventListener('click', function () {
       document.getElementById('mobileMenu').classList.toggle('hidden');
       this.classList.toggle('active');
     });
-    document.querySelectorAll('#mobileMenu a').forEach(l=>l.addEventListener('click',()=>{
+    document.querySelectorAll('#mobileMenu a').forEach(l => l.addEventListener('click', () => {
       document.getElementById('mobileMenu').classList.add('hidden');
     }));
     // Navbar scroll
-    window.addEventListener('scroll',()=>{
-      document.getElementById('navbar').style.background=window.scrollY>50?'rgba(0,0,0,0.95)':'rgba(0,0,0,0.7)';
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').style.background = window.scrollY > 50 ? 'rgba(0,0,0,0.95)' : 'rgba(0,0,0,0.7)';
     });
     // Live indicator
-    (function(){
-      const h=new Date().getHours();
-      const gents=(h>=6&&h<10)||(h>=16&&h<23);
-      const ladies=h>=10&&h<16;
-      if(gents)document.getElementById('gentsLive').classList.replace('hidden','flex');
-      if(ladies)document.getElementById('ladiesLive').classList.replace('hidden','flex');
+    (function () {
+      const h = new Date().getHours();
+      const gents = (h >= 6 && h < 10) || (h >= 16 && h < 23);
+      const ladies = h >= 10 && h < 16;
+      if (gents) document.getElementById('gentsLive').classList.replace('hidden', 'flex');
+      if (ladies) document.getElementById('ladiesLive').classList.replace('hidden', 'flex');
     })();
     // Scroll reveal
-    const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('revealed');obs.unobserve(x.target)}}),{threshold:0.1});
-    document.querySelectorAll('section').forEach(s=>obs.observe(s));
+    const obs = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) { x.target.classList.add('revealed'); obs.unobserve(x.target) } }), { threshold: 0.1 });
+    document.querySelectorAll('section').forEach(s => obs.observe(s));
   </script>
 </body>
+
 </html>
